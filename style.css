@@ -1,0 +1,19 @@
+main {
+    outline: 5px dotted salmon;
+}
+
+main li {
+    font-weight: bold;
+}
+
+.centered {}
+
+.title-font {}
+
+.company-accent-color-1 {
+    background-color: seagreen;
+}
+
+.company-accent-color-2 {
+    background-color: salmon;
+}
