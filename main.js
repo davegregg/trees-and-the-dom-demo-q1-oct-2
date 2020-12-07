@@ -34,5 +34,5 @@ mainContent.append(ul)
 let firstItem = document.querySelector("ul > li:first-child")
 let listB = document.querySelector(".list-b")
 
-listB.append(firstItem.cloneNode(1)) // copies the element over (copies the element one-level deep, so we get the text content)
+listB.append(firstItem.cloneNode(true)) // copies the element over (copies the element deeply, so we get not just the element, but also its contents)
 listB.append(firstItem) // moves the element over
